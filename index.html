@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizScape</title>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"> 
+        
+</head>
+<body>
+    <div id="wrapper">
+        <div>
+            <h1><img src="css/quizscape.png"></h1>
+        </div>
+        <div class="panel">   
+            <p id="welcomeMsg1">Welcome to QuizScape</p> 
+            <p id="welcomeMsg2" class="small">Click start below to begin the trivia game</p>
+            <a id="startEasy" href="#" role="button"><button>Easy</button></a>
+            <a id="startVet" href="#" role="button"><button>Veteran</button></a>
+            <div id="wrapperChild"></div>
+        </div>
+
+        <div>
+            <button id="main">Main menu</button>
+            
+            <span>Created by Dallan Jones at Juno College</br><a href="https://dallan.ca">https://dallan.ca</a></span>
+        </div>
+
+    </div>
+
+    <div class="scoresContainer">
+        <div>
+            <img src="css/scroll_top.gif">
+        </div>
+
+        <div id="records">
+            Your recorded scores
+            <p id="removeIfPlayed">Play the game to record a score!</p>  
+        </div>
+
+        <div>
+            <img src="css/scroll_bottom.gif">
+        </div>
+    </div>
+
+
+
+
+    <script type = "text/javascript" src = "scripts.js"></script>
+
+</body>
+</html>
